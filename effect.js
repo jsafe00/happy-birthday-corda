@@ -190,6 +190,17 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(3000);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
+					$('#b22').show();
+					$('#b33').show();
+					$('#b44').show();
+					$('#b55').show();
+					$('#b66').show();
+					$('#balloon2').show();
+					$('#balloon3').show();
+					$('#balloon4').show();
+					$('#balloon5').show();
+					$('#balloon6').show();
+					$('#link').text("https://www.maricorfernandez.site");
 					$('.cake').fadeIn('fast');
 				});
 				
