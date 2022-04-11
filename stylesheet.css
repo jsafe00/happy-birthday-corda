@@ -23,9 +23,9 @@ body {
 	animation:peach_alive linear 8s infinite;
 }
 
-img {
-	width: 100%;
-	height: auto;
+.img-corda {
+	max-width: 100%;
+  	width: 500px;  
   }
 
 @-webkit-keyframes peach_alive {
